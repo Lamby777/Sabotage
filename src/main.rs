@@ -31,8 +31,8 @@ fn main() -> SyncResult<()> {
 
 fn music_player_loop() {
 	loop {
-		thread::sleep(std::time::Duration::from_secs(DELAY_PER_MEME_MUSIC));
 		let _ = play_meme_audio();
+		thread::sleep(std::time::Duration::from_secs(DELAY_PER_MEME_MUSIC));
 	}
 }
 
