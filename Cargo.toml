@@ -1,0 +1,13 @@
+[package]
+name = "sabotage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+houdini = "2.0.0"
+image = "0.24.5"
+lazy_static = "1.4.0"
+rand = "0.8.5"
+rodio = "0.17.1"
+show-image = {version = "0.13.1", features = ["image"]}
+windows-volume-control = "0.1.0"
